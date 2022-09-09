@@ -1,0 +1,3 @@
+C:/Users/PROGRESS ICT MEDIA/alx-low_level_programming/cmake-build-debug/CMakeFiles/alx_low_level_programming.dir
+C:/Users/PROGRESS ICT MEDIA/alx-low_level_programming/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/PROGRESS ICT MEDIA/alx-low_level_programming/cmake-build-debug/CMakeFiles/rebuild_cache.dir
