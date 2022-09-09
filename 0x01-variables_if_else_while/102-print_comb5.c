@@ -6,7 +6,7 @@
  */
 
 int main(void)
-{
+ {
 	int tens;
 	int units;
 	int t;
@@ -39,4 +39,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
-} /* end of  main */
+ } /* end of  main */
