@@ -10,7 +10,7 @@ int main(void)
 	int i = '0';
 	int a_to_f = 'a';
 
-	while (n <= '9') /*print 0-9*/
+	while (i <= '9') /*print 0-9*/
 	{
 		putchar(i);
 		i++;
