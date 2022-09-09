@@ -27,7 +27,7 @@ int main(void)
 					putchar(u);
 
 					if (!((tens == '9' && units == '8') &&
-					      (t == '9' && u == '9')))
+					      (t == '8' && u == '9')))
 					{
 						putchar(',');  /* inserting commas */
 						putchar(' ');
