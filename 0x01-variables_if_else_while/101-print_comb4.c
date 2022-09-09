@@ -15,7 +15,7 @@ int main(void)
 	{
 		for (ten = (hundred + 1); ten <= '9'; ten++) /*tens=100s+1*/
 		{
-			for (unit = (ten + 1); one <= '9'; one++) /*ones*/
+			for (unit = (ten + 1); unit <= '9'; unit++) /*ones*/
 			{
 				putchar(hundred);
 				putchar(ten);
