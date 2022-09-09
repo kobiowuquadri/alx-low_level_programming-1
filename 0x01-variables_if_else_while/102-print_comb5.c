@@ -8,36 +8,35 @@
 int main(void)
 {
 	int tens;
-	int ones;
+	int units;
 	int t;
-	int o;
+	int u;
 
 	for (tens = '0'; tens <= '9'; tens++) /*print first two digit combo*/
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		for (units = '0'; units <= '9'; units++)
 		{
 		 	for (t = tens; t <= '9'; t++) /*print second of pair*/
 			{
-				for (o = ones + 1; o <= '9'; o++)
+				for (u = units + 1; u <= '9'; u++)
 				{
 					putchar(tens);
-					putchar(ones);
+					putchar(units);
 					putchar(' ');
 					putchar(t);
-					putchar(o);
+					putchar(u);
 
-					if (!((tens == '9' && ones == '8') &&
-					      (t == '9' && o == '9')))
+					if (!((tens == '9' && units == '8') &&
+					      (t == '9' && u == '9')))
 					{
-						putchar(',');
+						putchar(',');  /* inserting commas */
 						putchar(' ');
-					}
-				}
-				o = '0';
-			}
-		}
-	}
+					} /* end of IF statement */
+				}  /* end of last FOR loop */
+			}  /* end of  second to last loop */
+		}   /* end of the second loop */
+	}    /* end of  the nested loop */
 	putchar('\n');
 
 	return (0);
-}
+} /* end of  main */
