@@ -8,7 +8,7 @@
 int main(void)
 {
 	int tens;
-	int unit;
+	int units;
 	int t;
 	int u;
 
@@ -21,12 +21,12 @@ int main(void)
 				for (u = units + 1; u <= '9'; u++)
 				{
 					putchar(tens);
-					putchar(ones);
+					putchar(units);
 					putchar(' ');
 					putchar(t);
 					putchar(u);
 
-					if (!((tens == '9' && unit == '8') &&
+					if (!((tens == '9' && units == '8') &&
 					      (t == '9' && u == '9')))
 					{
 						putchar(',');  /* inserting commas */
